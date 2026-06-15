@@ -4,7 +4,6 @@
     padding: 0;
 }
 body {
-    font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
     grid-template-columns: 3fr 1fr;
@@ -12,7 +11,10 @@ body {
     height: 100vh;
     background-color: #5C8374;
 }
+
 header {
+    font-family: cookie;
+    font-size: 24px;
     grid-column: 1 / -1;
     background: #99A799;
     color: #1B4242;
