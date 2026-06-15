@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    font-family: cookie;
+    font-family: 'Cookie';
     font-size: 24px;
     grid-column: 1 / -1;
     background: #99A799;
