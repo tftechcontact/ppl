@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 3fr;
+    grid-template-columns: 3fr 1fr;
     gap: 10px;
     height: 100vh;
     background-color: #5C8374;
@@ -38,7 +38,7 @@ nav a:hover {
 .container {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: 3fr 1fr;
     gap: 10px;
     padding: 20px;
 }
@@ -47,7 +47,11 @@ main {
     color: #212121;
     padding: 20px;
 }
-
+aside {
+    background:#92967D;
+    color: #212121;
+    padding: 15px;
+}
 footer {
     grid-column: 1 / -1;
     background: #99A799;
