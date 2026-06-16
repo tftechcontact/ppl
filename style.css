@@ -22,21 +22,30 @@ header {
     padding: 20px;
     font-size: 24px;
 }
-nav {
-    grid-column: 1 / -1;
-    display: flex;
-    justify-content: flex-end;
-    background: #570530;
-    padding: 10px;
+
+section {
+  margin: 0 auto;
+  width: 25rem;
+  background: white;
+  padding: 20px;
 }
-nav a {
-    color: #EBE5C2;
-    text-decoration: none;
-    padding: 10px 15px;
+
+h2 {
+  color: white;
+  position: relative;
+  background: black;
 }
-nav a:hover {
-    background: #777;
+h2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -9999px;
+  right: 0;
+  border-left: 9999px solid black;
+  box-shadow: 9999px 0 0 black;
 }
+
 .container {
     grid-column: 1 / -1;
     display: grid;
